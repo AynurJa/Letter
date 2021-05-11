@@ -1,0 +1,30 @@
+.drag_letter,
+.drop_letter {
+    border: 1px solid #ababab;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.letter {
+    width: 35px;
+    height: 35px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 35px;
+    margin: 30px;
+    cursor: move;
+}
+
+.letter_holder {
+    width: 35%;
+    margin: 20px;
+    height: 200px;
+    border: 1px dashed #555;
+    border-radius: 20px;
+    display: flex;
+}
